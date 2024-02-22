@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif!important;
+}
+.btn-log{
+    color: #fff !important;
+    background-color: red !important;
+    border-color: red !important;
+    padding: 8px 30px !important;
+}
+.banner{
+
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-txt{
+    padding-top: 20%;
+}
+.dis-banner{
+    padding-top: 2%;
+    
+}
+.sec-2{
+    background-color: #0A0B1E;
+    padding: 30px 0px;
+}
+.box{
+    background-color: #3B3C4B;
+    padding: 25px 30px;
+}
+.inner-2{
+    text-align: center;
+    padding: 80px 0px;
+
+}
+.text-sec2{
+    padding: 0% 20%;
+    font-family: sans-serif;
+
+}
+.clmn-txt1{
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.box:hover{
+    background-color: #FF0000;
+    box-shadow: 1px 1px 20px red;
+}
+.sec-3{
+    padding: 100px 0px;
+    background-color: #0A0B1E;
+}
+.inner-sec3{
+    align-items: center;
+}
+.inner-sec3{
+    padding-left: 70px;
+}
+.xd{
+    background-image: url(images/Rectangle\ 9\ \(3\).png);
+    height: 80vh;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img-vec{
+    margin-top: 20rem;
+}
+.sec-5{
+    background-color: #0A0B1E;
+    padding: 100px 0px;
+}
+th {
+    color: #fff;
+    background: #FF0000;
+}
+
+td {
+    color: #fff;
+}
+
+
+td {
+    text-align: center;
+}
+tr {
+    border: 0px solid;
+}
+
+tr.secnd-row {
+    border: 1px solid #fff;
+}
+
+td {
+    border: 0px solid !important;
+}
+td {
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px 0px;
+}
+table tbody>tr:nth-child(odd)>td {
+    background: initial;
+}
+
+tr {
+    background: initial !important;
+}
+th {
+    text-align: center !important;
+}
