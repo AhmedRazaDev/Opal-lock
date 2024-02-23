@@ -15,14 +15,15 @@
 .banner{
 
     width: 100%;
-    height: 80vh;
+    height: 80dvh;
     background-image: url(images/banner.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 .banner-txt{
-    padding-top: 20%;
+    padding-top: 60px;
 }
 .dis-banner{
     padding-top: 2%;
@@ -35,6 +36,8 @@
 .box{
     background-color: #3B3C4B;
     padding: 25px 30px;
+    height: 250px;
+    transition: 0.5s;
 }
 .inner-2{
     text-align: center;
@@ -53,6 +56,7 @@
 .box:hover{
     background-color: #FF0000;
     box-shadow: 1px 1px 20px red;
+
 }
 .sec-3{
     padding: 100px 0px;

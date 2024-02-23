@@ -7,9 +7,9 @@
 
 <body>
 
-    <section class="banner">
+    <section class="banner ">
         <?php include 'header.php'; ?>
-        <div class="container">
+        <div class="container border-2 ">
             <div class="banner-txt">
                 <h1 class="text-white w-50 ">Protect Your Data with Opal Lock
                     By Fidelity Height</h1>
@@ -43,7 +43,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1 ">
                     <div class="box">
                         <h3 class="text-white">OPAL LOCK USB</h3>
                         <p class="clmn-txt1 text-white">The USB version supports all basic functionalities of Opal Lock
@@ -52,7 +52,7 @@
                             Opal Drives. On top of features supported by the Demo version, the USB version.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1 ">
                     <div class="box">
                         <h3 class="text-white">OPAL LOCK STANDARD</h3>
                         <p class="clmn-txt1 text-white">The Standard version supports all basic functionalities of Opal
@@ -60,7 +60,7 @@
                             version, the USB version.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-1 ">
                     <div class="box">
                         <h3 class="text-white">OPAL LOCK PREMIUM</h3>
                         <p class="clmn-txt1 text-white">The Standard version supports all basic functionalities of Opal
@@ -274,6 +274,44 @@
         </div>
     </section>
 
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false"
+                style="width: 342px;">
+                <h1>es</h1>`
+            </div>
+            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 342px;">
+                <h1>test</h1>
+            </div>
+            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 342px;">
+                <h1>test</h1>
+            </div>
+            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 342px;">
+                <h1>test</h1>
+            </div>
+            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 342px;">
+                <h1>test</h1>
+            </div>
+            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 342px;">
+                <h1>test</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script text="jquery">
+    $(document).ready(function() {
+        $(".slider").slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots: false,
+            prevArrow: '<img width="64" height="64" src="https://img.icons8.com/ios-glyphs/64/6C0808/circled-chevron-left.png" alt="circled-chevron-left"/>',
+            nextArrow: '<img width="64" height="64" src="https://img.icons8.com/ios-glyphs/64/6C0808/circled-chevron-right.png" alt="circled-chevron-right"/>',
+        });
+    });
+    </script>
 
 
 
