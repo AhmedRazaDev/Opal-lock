@@ -11,7 +11,7 @@
                     <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Link</a>
+                    <a class="nav-link text-white" href="#">Link </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Products</a>
@@ -33,7 +33,7 @@
             <form class="d-flex">
                 <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button> -->
-                <button type="button" class="btn btn-primary btn-log">Log In</button>
+                <button type="button" class="btn btn-primary btn-log">Log In now</button>
             </form>
         </div>
     </div>
